@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.Logintest">
+        <methods>
+          <include name="close"/>
+          <include name="LoginWith_valid_credentials"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- testcases.Logintest -->
+      <class name="testcases.Signuptest">
+        <methods>
+          <include name="close"/>
+          <include name="signup"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- testcases.Signuptest -->
+      <class name="testcases.Homepagetest">
+        <methods>
+          <include name="verify_allmenuitems_on_homepage"/>
+          <include name="verifylogo_on_homepage"/>
+          <include name="close"/>
+          <include name="verifytitle_on_Homepage"/>
+          <include name="startup"/>
+          <include name="verify_product_features_presence"/>
+        </methods>
+      </class> <!-- testcases.Homepagetest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
